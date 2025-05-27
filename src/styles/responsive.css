@@ -1,0 +1,222 @@
+/* Base responsive styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styles */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Responsive typography */
+html {
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+/* Responsive images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive tables */
+table {
+    width: 100%;
+    overflow-x: auto;
+    display: block;
+}
+
+/* Responsive grid system */
+.grid {
+    display: grid;
+    gap: 20px;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Mobile navigation */
+    .nav-links {
+        display: none;
+        position: fixed;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background: white;
+        padding: 20px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    
+    .nav-links.active {
+        display: block;
+    }
+    
+    /* Mobile sidebar */
+    .sidebar {
+        position: fixed;
+        left: -250px;
+        top: 0;
+        bottom: 0;
+        width: 250px;
+        background: #333;
+        transition: 0.3s;
+        z-index: 1000;
+    }
+    
+    .sidebar.active {
+        left: 0;
+    }
+    
+    /* Mobile forms */
+    .form-group {
+        margin-bottom: 15px;
+    }
+    
+    input, select, textarea {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    /* Mobile buttons */
+    .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 0 10px;
+    }
+    
+    /* Small screen adjustments */
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    h3 {
+        font-size: 1.3rem;
+    }
+    
+    p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Utility classes */
+.hide-on-mobile {
+    display: block;
+}
+
+.show-on-mobile {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    
+    .show-on-mobile {
+        display: block;
+    }
+}
+
+/* Responsive spacing */
+.section {
+    padding: 40px 0;
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding: 30px 0;
+    }
+}
+
+/* Responsive cards */
+.card {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 15px;
+    }
+}
+
+/* Responsive footer */
+.footer {
+    padding: 40px 0;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 30px 0;
+    }
+    
+    .footer-content {
+        text-align: center;
+    }
+}
+
+/* Responsive modals */
+.modal-dialog {
+    margin: 10px;
+    max-width: 100%;
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        margin: 1.75rem auto;
+        max-width: 500px;
+    }
+}
+
+/* Responsive avatars */
+.avatar-image {
+    max-width: 100px;
+}
+
+@media (max-width: 768px) {
+    .avatar-image {
+        max-width: 60px;
+    }
+} 

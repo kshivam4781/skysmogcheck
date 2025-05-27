@@ -1,0 +1,420 @@
+[16-May-2025 02:11:35 Europe/Berlin] Starting clean_truck_checks update for service_id = 3
+[16-May-2025 02:11:35 Europe/Berlin] Vehicle data: Array
+(
+    [id] => 269
+    [appointment_id] => 228
+    [vehYear] => 2020
+    [vehMake] => Freightliner
+    [vin] => 1HGCM82633A123456
+    [plateNo] => ABC123
+    [created_at] => 2025-05-14 15:42:15
+    [result] => 
+    [next_due_date] => 
+    [clean_truck_check_status] => pending
+    [clean_truck_check_next_date] => 
+    [error_code] => 
+    [warm_up] => 
+    [smoke_test_notes] => 
+    [smoke_test_status] => pending
+    [attachment_path] => 
+    [service_id] => 3
+    [number_of_vehicles] => 1
+    [appointment_status] => pending
+    [email] => john.smith@abctrucking.com
+    [Name] => John Smith
+    [companyName] => ABC Trucking Company
+    [consultant_email] => 
+    [consultant_first_name] => 
+    [consultant_last_name] => 
+)
+
+[16-May-2025 02:11:35 Europe/Berlin] Input data: Array
+(
+    [vehicle_id] => 269
+    [status] => passed
+    [error_code] => 
+    [warmup_cycles] => 
+    [notes] => 
+)
+
+[16-May-2025 02:11:35 Europe/Berlin] Check exists result: Array
+(
+    [id] => 101
+)
+
+[16-May-2025 02:11:35 Europe/Berlin] Existing record found, preparing to update
+[16-May-2025 02:11:35 Europe/Berlin] Setting smog_check_status to: confirmed
+[16-May-2025 02:11:35 Europe/Berlin] Setting smog_check_pending_reason to: 
+[16-May-2025 02:11:35 Europe/Berlin] Successfully updated clean_truck_checks record
+[16-May-2025 02:11:35 Europe/Berlin] PHP Warning:  Undefined variable $next_due_date in C:\xampp\htdocs\Test\src\pages\update_smoke_test.php on line 515
+[16-May-2025 02:20:21 Europe/Berlin] Starting clean_truck_checks update for service_id = 3
+[16-May-2025 02:20:21 Europe/Berlin] Vehicle data: Array
+(
+    [id] => 267
+    [appointment_id] => 227
+    [vehYear] => 2020
+    [vehMake] => Freightliner
+    [vin] => 1HGCM82633A123456
+    [plateNo] => ABC123
+    [created_at] => 2025-05-14 15:33:49
+    [result] => 
+    [next_due_date] => 
+    [clean_truck_check_status] => pending
+    [clean_truck_check_next_date] => 
+    [error_code] => 
+    [warm_up] => 
+    [smoke_test_notes] => 
+    [smoke_test_status] => pending
+    [attachment_path] => 
+    [service_id] => 3
+    [number_of_vehicles] => 2
+    [appointment_status] => pending
+    [email] => jeje@lmno.com
+    [Name] => Je Je
+    [companyName] => LMNO Trucks
+    [consultant_email] => 
+    [consultant_first_name] => 
+    [consultant_last_name] => 
+)
+
+[16-May-2025 02:20:21 Europe/Berlin] Input data: Array
+(
+    [vehicle_id] => 267
+    [status] => passed
+    [error_code] => 
+    [warmup_cycles] => 
+    [notes] => 
+)
+
+[16-May-2025 02:20:21 Europe/Berlin] Check exists result: Array
+(
+    [id] => 99
+)
+
+[16-May-2025 02:20:21 Europe/Berlin] Existing record found, preparing to update
+[16-May-2025 02:20:21 Europe/Berlin] Setting smog_check_status to: confirmed
+[16-May-2025 02:20:21 Europe/Berlin] Setting smog_check_pending_reason to: 
+[16-May-2025 02:20:21 Europe/Berlin] Successfully updated clean_truck_checks record
+[16-May-2025 02:20:21 Europe/Berlin] PHP Warning:  Undefined variable $next_due_date in C:\xampp\htdocs\Test\src\pages\update_smoke_test.php on line 515
+[16-May-2025 02:20:51 Europe/Berlin] Starting clean_truck_checks update for service_id = 3
+[16-May-2025 02:20:51 Europe/Berlin] Vehicle data: Array
+(
+    [id] => 254
+    [appointment_id] => 216
+    [vehYear] => 2020
+    [vehMake] => Freightliner
+    [vin] => 1HGCM82633A123456
+    [plateNo] => ABC123
+    [created_at] => 2025-05-13 11:23:50
+    [result] => 
+    [next_due_date] => 
+    [clean_truck_check_status] => pending
+    [clean_truck_check_next_date] => 
+    [error_code] => 
+    [warm_up] => 
+    [smoke_test_notes] => 
+    [smoke_test_status] => pending
+    [attachment_path] => 
+    [service_id] => 3
+    [number_of_vehicles] => 1
+    [appointment_status] => pending
+    [email] => john.smith@abctrucking.com
+    [Name] => John Smith
+    [companyName] => ABC Trucking Company
+    [consultant_email] => 
+    [consultant_first_name] => 
+    [consultant_last_name] => 
+)
+
+[16-May-2025 02:20:51 Europe/Berlin] Input data: Array
+(
+    [vehicle_id] => 254
+    [status] => passed
+    [error_code] => 
+    [warmup_cycles] => 
+    [notes] => 
+)
+
+[16-May-2025 02:20:51 Europe/Berlin] Check exists result: Array
+(
+    [id] => 87
+)
+
+[16-May-2025 02:20:51 Europe/Berlin] Existing record found, preparing to update
+[16-May-2025 02:20:51 Europe/Berlin] Setting smog_check_status to: confirmed
+[16-May-2025 02:20:51 Europe/Berlin] Setting smog_check_pending_reason to: 
+[16-May-2025 02:20:51 Europe/Berlin] Successfully updated clean_truck_checks record
+[16-May-2025 02:20:51 Europe/Berlin] PHP Warning:  Undefined variable $next_due_date in C:\xampp\htdocs\Test\src\pages\update_smoke_test.php on line 515
+[21-May-2025 02:38:11 Europe/Berlin] PHP Warning:  require_once(../vendor/autoload.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\Test\src\pages\update_smoke_test.php on line 17
+[21-May-2025 02:38:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Test\src\pages\update_smoke_test.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Test\src\pages\update_smoke_test.php on line 17
+[21-May-2025 02:39:02 Europe/Berlin] PHP Warning:  require_once(../vendor/autoload.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\Test\src\pages\update_smoke_test.php on line 17
+[21-May-2025 02:39:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Test\src\pages\update_smoke_test.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Test\src\pages\update_smoke_test.php on line 17
+[21-May-2025 02:49:37 Europe/Berlin] Starting clean_truck_checks update for service_id = 3
+[21-May-2025 02:49:37 Europe/Berlin] Vehicle data: Array
+(
+    [id] => 263
+    [appointment_id] => 225
+    [vehYear] => 2020
+    [vehMake] => Freightliner
+    [vin] => 1HGCM82633A123456
+    [plateNo] => ABC123
+    [created_at] => 2025-05-14 13:08:47
+    [result] => 
+    [next_due_date] => 
+    [clean_truck_check_status] => pending
+    [clean_truck_check_next_date] => 
+    [error_code] => 
+    [warm_up] => 
+    [smoke_test_notes] => 
+    [smoke_test_status] => pending
+    [attachment_path] => 
+    [service_id] => 3
+    [number_of_vehicles] => 1
+    [appointment_status] => pending
+    [email] => john.smith@abctrucking.com
+    [Name] => John Smith
+    [companyName] => ABC Trucking Company
+    [consultant_email] => 
+    [consultant_first_name] => 
+    [consultant_last_name] => 
+)
+
+[21-May-2025 02:49:37 Europe/Berlin] Input data: Array
+(
+    [vehicle_id] => 263
+    [status] => passed
+    [error_code] => 
+    [warmup_cycles] => 
+    [notes] => 
+)
+
+[21-May-2025 02:49:37 Europe/Berlin] Check exists result: Array
+(
+    [id] => 96
+)
+
+[21-May-2025 02:49:37 Europe/Berlin] Existing record found, preparing to update
+[21-May-2025 02:49:37 Europe/Berlin] Setting smog_check_status to: confirmed
+[21-May-2025 02:49:37 Europe/Berlin] Setting smog_check_pending_reason to: 
+[21-May-2025 02:49:37 Europe/Berlin] Successfully updated clean_truck_checks record
+[21-May-2025 02:49:37 Europe/Berlin] PHP Warning:  Undefined variable $next_due_date in C:\xampp\htdocs\Test\src\pages\update_smoke_test.php on line 605
+[21-May-2025 02:51:07 Europe/Berlin] Skipping clean_truck_checks update - service_id is not 3. Current service_id: 2
+[21-May-2025 02:51:07 Europe/Berlin] PHP Warning:  Undefined variable $next_due_date in C:\xampp\htdocs\Test\src\pages\update_smoke_test.php on line 605
+[21-May-2025 03:02:51 Europe/Berlin] Starting clean_truck_checks update for service_id = 3
+[21-May-2025 03:02:51 Europe/Berlin] Vehicle data: Array
+(
+    [id] => 206
+    [appointment_id] => 165
+    [vehYear] => 2020
+    [vehMake] => Toyota
+    [vin] => 1HGCM82633A123456
+    [plateNo] => ABC123
+    [created_at] => 2025-05-12 11:41:41
+    [result] => pass
+    [next_due_date] => 2025-11-12
+    [clean_truck_check_status] => passed
+    [clean_truck_check_next_date] => 2025-11-12
+    [error_code] => xx
+    [warm_up] => 
+    [smoke_test_notes] => 
+    [smoke_test_status] => passed
+    [attachment_path] => 
+    [service_id] => 3
+    [number_of_vehicles] => 3
+    [appointment_status] => completed
+    [email] => john.doe@example.com
+    [Name] => Mr Test Doe
+    [companyName] => Know it all company
+    [consultant_email] => shivamssing96@gmail.com
+    [consultant_first_name] => shivam
+    [consultant_last_name] => Kumar
+)
+
+[21-May-2025 03:02:51 Europe/Berlin] Input data: Array
+(
+    [vehicle_id] => 206
+    [status] => passed
+    [error_code] => 
+    [warmup_cycles] => 
+    [notes] => 
+)
+
+[21-May-2025 03:02:51 Europe/Berlin] Check exists result: Array
+(
+    [id] => 45
+)
+
+[21-May-2025 03:02:51 Europe/Berlin] Existing record found, preparing to update
+[21-May-2025 03:02:51 Europe/Berlin] Setting smog_check_status to: confirmed
+[21-May-2025 03:02:51 Europe/Berlin] Setting smog_check_pending_reason to: 
+[21-May-2025 03:02:51 Europe/Berlin] Successfully updated clean_truck_checks record
+[21-May-2025 03:02:51 Europe/Berlin] PHP Warning:  Undefined variable $next_due_date in C:\xampp\htdocs\Test\src\pages\update_smoke_test.php on line 671
+[21-May-2025 03:06:25 Europe/Berlin] Starting clean_truck_checks update for service_id = 3
+[21-May-2025 03:06:25 Europe/Berlin] Vehicle data: Array
+(
+    [id] => 206
+    [appointment_id] => 165
+    [vehYear] => 2020
+    [vehMake] => Toyota
+    [vin] => 1HGCM82633A123456
+    [plateNo] => ABC123
+    [created_at] => 2025-05-12 11:41:41
+    [result] => pass
+    [next_due_date] => 2025-11-20
+    [clean_truck_check_status] => passed
+    [clean_truck_check_next_date] => 2025-11-12
+    [error_code] => 
+    [warm_up] => 
+    [smoke_test_notes] => 
+    [smoke_test_status] => passed
+    [attachment_path] => uploads/smoke_tests/smoke_test_certificate_206_20250521030251.pdf
+    [service_id] => 3
+    [number_of_vehicles] => 3
+    [appointment_status] => completed
+    [email] => john.doe@example.com
+    [Name] => Mr Test Doe
+    [companyName] => Know it all company
+    [consultant_email] => shivamssing96@gmail.com
+    [consultant_first_name] => shivam
+    [consultant_last_name] => Kumar
+)
+
+[21-May-2025 03:06:25 Europe/Berlin] Input data: Array
+(
+    [vehicle_id] => 206
+    [status] => passed
+    [error_code] => 
+    [warmup_cycles] => 
+    [notes] => 
+)
+
+[21-May-2025 03:06:25 Europe/Berlin] Check exists result: Array
+(
+    [id] => 45
+)
+
+[21-May-2025 03:06:25 Europe/Berlin] Existing record found, preparing to update
+[21-May-2025 03:06:25 Europe/Berlin] Setting smog_check_status to: confirmed
+[21-May-2025 03:06:25 Europe/Berlin] Setting smog_check_pending_reason to: 
+[21-May-2025 03:06:25 Europe/Berlin] Successfully updated clean_truck_checks record
+[21-May-2025 03:06:25 Europe/Berlin] PHP Warning:  fopen(../assets/images/icon.png): Failed to open stream: No such file or directory in C:\xampp\htdocs\Test\vendor\setasign\fpdf\fpdf.php on line 1274
+[21-May-2025 03:06:25 Europe/Berlin] Error updating smoke test: FPDF error: Can't open image file: ../assets/images/icon.png
+[21-May-2025 03:06:25 Europe/Berlin] Stack trace: #0 C:\xampp\htdocs\Test\vendor\setasign\fpdf\fpdf.php(1276): FPDF->Error('Can't open imag...')
+#1 C:\xampp\htdocs\Test\vendor\setasign\fpdf\fpdf.php(890): FPDF->_parsepng('../assets/image...')
+#2 C:\xampp\htdocs\Test\src\pages\update_smoke_test.php(49): FPDF->Image('../assets/image...', 160, 10, 30)
+#3 C:\xampp\htdocs\Test\src\pages\update_smoke_test.php(457): generateSmokeTestCertificate(Array, 'shivam Kumar')
+#4 {main}
+[21-May-2025 03:07:10 Europe/Berlin] Skipping clean_truck_checks update - service_id is not 3. Current service_id: 2
+[21-May-2025 03:07:10 Europe/Berlin] PHP Warning:  fopen(C:\xampp\htdocs\Test\src\pages/../assets/images/icon.png): Failed to open stream: No such file or directory in C:\xampp\htdocs\Test\vendor\setasign\fpdf\fpdf.php on line 1274
+[21-May-2025 03:07:10 Europe/Berlin] Error updating smoke test: FPDF error: Can't open image file: C:\xampp\htdocs\Test\src\pages/../assets/images/icon.png
+[21-May-2025 03:07:10 Europe/Berlin] Stack trace: #0 C:\xampp\htdocs\Test\vendor\setasign\fpdf\fpdf.php(1276): FPDF->Error('Can't open imag...')
+#1 C:\xampp\htdocs\Test\vendor\setasign\fpdf\fpdf.php(890): FPDF->_parsepng('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Test\src\pages\update_smoke_test.php(49): FPDF->Image('C:\\xampp\\htdocs...', 160, 10, 30)
+#3 C:\xampp\htdocs\Test\src\pages\update_smoke_test.php(457): generateSmokeTestCertificate(Array, 'shivam Kumar')
+#4 {main}
+[21-May-2025 03:07:52 Europe/Berlin] Starting clean_truck_checks update for service_id = 3
+[21-May-2025 03:07:52 Europe/Berlin] Vehicle data: Array
+(
+    [id] => 206
+    [appointment_id] => 165
+    [vehYear] => 2020
+    [vehMake] => Toyota
+    [vin] => 1HGCM82633A123456
+    [plateNo] => ABC123
+    [created_at] => 2025-05-12 11:41:41
+    [result] => pass
+    [next_due_date] => 2025-11-20
+    [clean_truck_check_status] => passed
+    [clean_truck_check_next_date] => 2025-11-12
+    [error_code] => 
+    [warm_up] => 
+    [smoke_test_notes] => 
+    [smoke_test_status] => passed
+    [attachment_path] => uploads/smoke_tests/smoke_test_certificate_206_20250521030251.pdf
+    [service_id] => 3
+    [number_of_vehicles] => 3
+    [appointment_status] => completed
+    [email] => john.doe@example.com
+    [Name] => Mr Test Doe
+    [companyName] => Know it all company
+    [consultant_email] => shivamssing96@gmail.com
+    [consultant_first_name] => shivam
+    [consultant_last_name] => Kumar
+)
+
+[21-May-2025 03:07:52 Europe/Berlin] Input data: Array
+(
+    [vehicle_id] => 206
+    [status] => passed
+    [error_code] => 
+    [warmup_cycles] => 
+    [notes] => 
+)
+
+[21-May-2025 03:07:52 Europe/Berlin] Check exists result: Array
+(
+    [id] => 45
+)
+
+[21-May-2025 03:07:52 Europe/Berlin] Existing record found, preparing to update
+[21-May-2025 03:07:52 Europe/Berlin] Setting smog_check_status to: confirmed
+[21-May-2025 03:07:52 Europe/Berlin] Setting smog_check_pending_reason to: 
+[21-May-2025 03:07:52 Europe/Berlin] Successfully updated clean_truck_checks record
+[21-May-2025 03:07:52 Europe/Berlin] PHP Warning:  Undefined variable $next_due_date in C:\xampp\htdocs\Test\src\pages\update_smoke_test.php on line 648
+[21-May-2025 03:23:05 Europe/Berlin] Skipping clean_truck_checks update - service_id is not 3. Current service_id: 2
+[21-May-2025 03:23:05 Europe/Berlin] PHP Warning:  Undefined variable $next_due_date in C:\xampp\htdocs\Test\src\pages\update_smoke_test.php on line 646
+[24-May-2025 02:43:26 Europe/Berlin] Starting clean_truck_checks update for service_id = 3
+[24-May-2025 02:43:26 Europe/Berlin] Vehicle data: Array
+(
+    [id] => 207
+    [appointment_id] => 166
+    [vehYear] => 2020
+    [vehMake] => Toyota
+    [vin] => 1HGCM82633A123456
+    [plateNo] => ABC123
+    [created_at] => 2025-05-12 17:59:16
+    [result] => 
+    [next_due_date] => 
+    [clean_truck_check_status] => pending
+    [clean_truck_check_next_date] => 
+    [error_code] => 
+    [warm_up] => 0
+    [smoke_test_notes] => 
+    [smoke_test_status] => pending
+    [attachment_path] => 
+    [service_id] => 3
+    [number_of_vehicles] => 1
+    [appointment_status] => confirmed
+    [email] => john.doe@example.com
+    [Name] => Mr Test Doe
+    [companyName] => Not A Test LLC
+    [consultant_email] => shivam@skytransportsolutions.com
+    [consultant_first_name] => Shivam
+    [consultant_last_name] => Kumar
+)
+
+[24-May-2025 02:43:26 Europe/Berlin] Input data: Array
+(
+    [vehicle_id] => 207
+    [status] => passed
+    [error_code] => 
+    [warmup_cycles] => 
+    [notes] => 
+)
+
+[24-May-2025 02:43:26 Europe/Berlin] Check exists result: Array
+(
+    [id] => 46
+)
+
+[24-May-2025 02:43:26 Europe/Berlin] Existing record found, preparing to update
+[24-May-2025 02:43:26 Europe/Berlin] Setting smog_check_status to: confirmed
+[24-May-2025 02:43:26 Europe/Berlin] Setting smog_check_pending_reason to: 
+[24-May-2025 02:43:26 Europe/Berlin] Successfully updated clean_truck_checks record
+[24-May-2025 02:43:26 Europe/Berlin] PHP Warning:  Undefined variable $next_due_date in C:\xampp\htdocs\Test\src\pages\update_smoke_test.php on line 646

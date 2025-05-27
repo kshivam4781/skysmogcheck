@@ -1,0 +1,175 @@
+/* Why Choose Us Section Styles */
+.about-preview {
+    padding: 90px 0;
+    background-color: #f8f9fa;
+}
+
+.about-text h6 {
+    color: var(--secondary-color);
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.about-text h2 {
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}
+
+.about-text p {
+    color: #606060;
+    font-size: 15px;
+    line-height: 1.8rem;
+    margin-bottom: 30px;
+}
+
+.about-text img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    position: relative;
+}
+
+.ct-btn {
+    display: inline-block;
+    width: 85px;
+    height: 85px;
+    line-height: 85px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 60px;
+    background: #fff;
+    position: absolute;
+    top: 77%;
+    right: 43%;
+    z-index: 1;
+}
+
+.ct-btn::before {
+    content: "";
+    height: 85px;
+    width: 85px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: var(--secondary-color);
+    border-radius: 50%;
+    animation: choose 1.6s ease-out infinite;
+    z-index: -1;
+}
+
+@keyframes choose {
+    0%, 30% {
+        transform: scale(0);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.5);
+        opacity: .7;
+    }
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+.ct-btn a {
+    color: var(--secondary-color);
+}
+
+.feature-box {
+    background: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: .4s;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.feature-box:hover {
+    transform: translateY(-10px);
+}
+
+.feature-box:hover .fbc-btn {
+    background: var(--secondary-color);
+    color: #fff;
+}
+
+.feature-box::before {
+    content: "";
+    position: absolute;
+    top: -115px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 90%;
+    height: 70%;
+    background: #fdebeb;
+    border-radius: 50%;
+}
+
+.fbc-btn {
+    display: inline-block;
+    height: 90px;
+    width: 90px;
+    line-height: 90px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: var(--secondary-color);
+    position: relative;
+    transition: .4s;
+    margin-bottom: 20px;
+}
+
+.active-feature {
+    margin-top: -30px;
+}
+
+.feature-box-content h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: var(--primary-color);
+}
+
+.feature-box-content p {
+    color: #606060;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+@media (max-width: 991px) {
+    .about-preview {
+        padding: 60px 0;
+    }
+    
+    .ct-btn {
+        top: 70%;
+        right: 40%;
+    }
+}
+
+@media (max-width: 767px) {
+    .about-preview {
+        padding: 40px 0;
+    }
+    
+    .about-text h2 {
+        font-size: 28px;
+    }
+    
+    .ct-btn {
+        display: none;
+    }
+    
+    .active-feature {
+        margin-top: 0;
+    }
+} 

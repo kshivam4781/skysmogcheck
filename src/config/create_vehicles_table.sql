@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS vehicles (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    appointment_id INT NOT NULL,
+    vehYear INT NOT NULL,
+    vehMake VARCHAR(50) NOT NULL,
+    vin VARCHAR(17) NOT NULL,
+    plateNo VARCHAR(20) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (appointment_id) REFERENCES appointments(id) ON DELETE CASCADE
+); 

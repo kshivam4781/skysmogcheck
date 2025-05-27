@@ -1,0 +1,10 @@
+Wed 05/14/2025 19:55:05.29 - Process Started 
+Created appointment reminder for appointment ID: 139
+Reminder creation process completed.
+ Wed 05/14/2025 19:55:05.35 - Process Completed 
+Tue 05/27/2025 12:02:35.10 - Process Started 
+Created appointment reminder for appointment ID: 150
+Appointment reminder already exists for appointment ID: 150
+Created appointment reminder for appointment ID: 153
+Reminder creation process completed.
+ Tue 05/27/2025 12:02:35.20 - Process Completed 

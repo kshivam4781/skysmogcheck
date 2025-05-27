@@ -1,0 +1,10 @@
+[21-May-2025 02:27:48 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'v.service_type' in 'field list' in C:\xampp\htdocs\Test\src\pages\get_vehicles.php:65
+Stack trace:
+#0 C:\xampp\htdocs\Test\src\pages\get_vehicles.php(65): mysqli->prepare('\n        SELECT...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Test\src\pages\get_vehicles.php on line 65
+[21-May-2025 02:28:04 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'v.service_type' in 'field list' in C:\xampp\htdocs\Test\src\pages\get_vehicles.php:65
+Stack trace:
+#0 C:\xampp\htdocs\Test\src\pages\get_vehicles.php(65): mysqli->prepare('\n        SELECT...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Test\src\pages\get_vehicles.php on line 65
